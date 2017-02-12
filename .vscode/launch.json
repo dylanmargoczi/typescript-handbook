@@ -5,7 +5,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/classes/class.ts",
+            "program": "${workspaceRoot}/basic-types/types.ts",
             "cwd": "${workspaceRoot}"
         },
         {
