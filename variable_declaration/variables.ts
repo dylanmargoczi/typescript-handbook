@@ -1,7 +1,5 @@
 for (var i = 0; i < 10; i++) {
-    setTimeout((function(i) {
-        console.log(i); 
-    }(i)));
+    setTimeout(function() { console.log(i); }, 100 * i);
 }
 
 function f(input: boolean) {
